@@ -1,0 +1,21 @@
+.carousel-container {
+    width: 100%;
+    max-width: 1000px; /* 부모 크기 제한 */
+    margin: 0 auto; /* 중앙 정렬 */
+    overflow: hidden; /* 넘치는 부분 숨기기 */
+}
+
+.carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover; /* 비율 유지 */
+    visibility: visible !important; /* 사라지는 문제 방지 */
+    opacity: 1 !important;
+}
