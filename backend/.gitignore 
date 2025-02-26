@@ -1,0 +1,17 @@
+# Ignore virtual environments
+shamrockmkt/
+
+# Ignore environment variables
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Node modules (Frontend)
+frontend/node_modules/
+frontend/.env
+
+# Ignore build files
+frontend/dist/
