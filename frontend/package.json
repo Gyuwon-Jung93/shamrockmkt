@@ -129,6 +129,7 @@
         "rgba-regex": "^1.0.0",
         "run-parallel": "^1.2.0",
         "simple-swizzle": "^0.2.2",
+        "slick-carousel": "^1.8.1",
         "source-map-js": "^1.2.1",
         "supports-color": "^7.2.0",
         "supports-preserve-symlinks-flag": "^1.0.0",
