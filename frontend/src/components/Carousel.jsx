@@ -1,18 +1,18 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+//dd
 const Carousel = () => {
     const settings = {
         dots: true,
-        infinite: true, // 무한 루프 활성화
+        infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        pauseOnHover: true, // 마우스 오버 시 멈추도록 설정
-        fade: false, // fade 효과가 적용되었을 경우 끄기
+        pauseOnHover: true,
+        fade: false,
     };
 
     const images = [
