@@ -4,7 +4,7 @@ import ProductDetail from './pages/ProductDetail';
 import Login from './pages/Login';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Carousel from './components/carousel.jsx';
+//import Carousel from './components/carousel.jsx';
 function App() {
     return (
         <Router>
