@@ -1,4 +1,4 @@
-name: CI Pipeline(ShamrockMkt)
+name: CI Pipeline(ShamrockMkt )
 
 on:
     push:
