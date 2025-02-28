@@ -1,10 +1,10 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ProductDetail from './pages/ProductDetail';
-import Login from './pages/Login';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-//import Carousel from './components/carousel.jsx';
+import Carousel from './components/Carousel.jsx';
 function App() {
     return (
         <Router>

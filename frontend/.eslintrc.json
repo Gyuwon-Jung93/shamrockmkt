@@ -4,6 +4,9 @@
     "rules": {
         "no-console": "warn",
         "react/jsx-props-no-spreading": "off",
-        "react/jsx-indent": ["error", 2]
+        "react/jsx-indent": ["error", 2],
+        "react/react-in-jsx-scope": "off",
+        "quotes": ["error", "double"],
+        "no-alert": "warn"
     }
 }
