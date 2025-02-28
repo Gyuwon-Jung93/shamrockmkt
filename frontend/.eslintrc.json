@@ -1,11 +1,9 @@
 // Follow the airbnb style guide
 {
     "extends": ["airbnb", "airbnb/hooks"],
-    "env": {
-        "browser": true,
-        "node": true
-    },
     "rules": {
-        "react/react-in-jsx-scope": "off"
+        "no-console": "warn",
+        "react/jsx-props-no-spreading": "off",
+        "react/jsx-indent": ["error", 2]
     }
 }
