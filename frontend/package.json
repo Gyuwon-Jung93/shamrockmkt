@@ -161,5 +161,11 @@
         "wrappy": "^1.0.2",
         "xtend": "^4.0.2",
         "yaml": "^2.4.2"
+    },
+    "jest": {
+        "testMatch": [
+            "**/src/**/*.test.js",
+            "**/src/**/*.spec.js"
+        ]
     }
 }
