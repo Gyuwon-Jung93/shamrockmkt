@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+node_modules # node_modules를 Git에서 무시
+node_modules
