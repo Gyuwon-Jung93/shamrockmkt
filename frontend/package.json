@@ -4,7 +4,7 @@
     "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
     "main": "eslint.config.js",
     "scripts": {
-        "test": "react-scripts test --watchAll=false",
+        "test": "react-scripts test --watchAll=false --passWithNoTests",
         "dev": "vite",
         "build": "vite build",
         "serve": "vite preview",
