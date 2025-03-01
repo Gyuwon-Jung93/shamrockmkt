@@ -1,10 +1,12 @@
 // Follow the airbnb style guide
 {
     "env": {
-        "browser": true
+        "browser": true,
+        "es2021": true,
+        "jest": true
     },
 
-    "extends": ["airbnb", "airbnb/hooks"],
+    "extends": ["airbnb", "airbnb/hooks", "eslint:recommended", "plugin:react/recommended"],
     "rules": {
         "no-console": "warn",
         "react/jsx-props-no-spreading": "off",
@@ -12,6 +14,7 @@
         "react/react-in-jsx-scope": "off",
         "quotes": ["error", "single", { "allowTemplateLiterals": true }],
         "no-alert": "warn",
-        "no-unused-vars": ["warn"]
+        "no-unused-vars": ["warn"],
+        "no-undef": "off"
     }
 }
