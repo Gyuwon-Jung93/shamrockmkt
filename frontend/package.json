@@ -136,6 +136,7 @@
         "queue-microtask": "^1.2.3",
         "quick-lru": "^5.1.1",
         "react": "^19.0.0",
+        "react-scripts": "^5.0.1",
         "react-dom": "^19.0.0",
         "react-router-dom": "^6.15.0",
         "react-slick": "^0.30.3",
