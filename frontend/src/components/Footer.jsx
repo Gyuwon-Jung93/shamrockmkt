@@ -1,5 +1,7 @@
-import { useEffect, useState } from "react";
-const Footer = () => {
+import React from 'react';
+// import { useEffect, useState } from 'react';
+
+function Footer() {
   return (
     <footer className="bg-gray-800 text-white p-10 mt-10">
       <div className="grid grid-cols-3 gap-4">
@@ -21,6 +23,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
